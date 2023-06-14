@@ -1,0 +1,88 @@
+.job-item-container {
+  margin: 10px;
+  background-color: #272727;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 767px) {
+  .job-item-container {
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+}
+.company-role-container {
+  display: flex;
+  align-items: center;
+}
+.company-logo {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.role-rating-container {
+  height: 60px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.rating-container {
+  height: 10px;
+  width: 30px;
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.job-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.job-title {
+  margin: 0px;
+  font-size: 24px;
+}
+@media screen and (max-width: 767px) {
+  .job-title {
+    font-size: 20px;
+  }
+}
+.rating-star {
+  color: yellow;
+}
+.location-salary-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location-jobtype-container {
+  display: flex;
+  align-items: center;
+}
+.location-container {
+  align-items: center;
+  display: flex;
+  margin: 10px;
+}
+.jobType-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.location-icon {
+  margin: 5px;
+}
+.bag-icon {
+  margin: 5px;
+}
+.horizontal-line {
+  width: 100%;
+}
+.description-heading {
+  font-size: 20px;
+  margin: 10px;
+  margin-left: 0px;
+}

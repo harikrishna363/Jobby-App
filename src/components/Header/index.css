@@ -1,0 +1,100 @@
+.navbar-container {
+  color: #ffffff;
+  background-color: #272727;
+  padding: 20px;
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .navbar-container {
+    padding: 10px;
+    padding-left: 0px;
+  }
+}
+.navbar-website-logo {
+  height: 40px;
+  width: 150px;
+}
+@media screen and (max-width: 767px) {
+  .navbar-website-logo {
+    height: 25px;
+    width: 90px;
+  }
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.home-job-container {
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+}
+@media screen and (max-width: 767px) {
+  .home-job-container {
+    width: 80px;
+  }
+}
+
+.desktop-nav-link {
+  color: #ffffff;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .desktop-nav-link {
+    display: none;
+  }
+}
+.mobile-nav-link {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .mobile-nav-link {
+    display: block;
+    height: 20px;
+    width: 20px;
+    color: #ffffff;
+    list-style: none;
+  }
+}
+
+.desktop-logout {
+  cursor: pointer;
+  background-color: #4f46e5;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  width: 100px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+@media screen and (max-width: 767px) {
+  .desktop-logout {
+    display: none;
+  }
+}
+.mobile-logout {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .mobile-logout {
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+  }
+}
+.home-nav-link {
+  height: 25px;
+  width: 25px;
+}
+.jobs-nav-link {
+  height: 22px;
+  width: 22px;
+}
